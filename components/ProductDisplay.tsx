@@ -39,7 +39,7 @@ const ProductDisplay = (props: any) => {
           />
         </div>
         <div className="flex flex-col my-0 mx-[70px]">
-          <h1 className='text-[#3d3d3d] text-[40xp] font'>{product.name}</h1>
+          <h1 className='text-[#3d3d3d] text-[40xp] font-semibold'>{product.name}</h1>
           <div className="right-start">
             <Image
               src={start_icon}
